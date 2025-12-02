@@ -11,7 +11,7 @@ app.use(
       "http://localhost:5174",
       "http://localhost:3000",
       // add production url
-      "http://3.210.122.249:3000/",
+      "http://3.210.122.249:3000",
     ],
     credentials: true,
   })

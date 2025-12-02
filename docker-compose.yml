@@ -18,7 +18,7 @@ services:
       - fullstack-net
     depends_on:
       - server
-    restart: unless-stoppped
+    restart: unless-stopped
 networks:
   fullstack-net:
     driver: bridge

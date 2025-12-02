@@ -1,3 +1,5 @@
+version: "3.9"
+
 services:
   server:
     build: ./server
@@ -16,7 +18,7 @@ services:
       - fullstack-net
     depends_on:
       - server
-    restart: unless-stopped
+    restart: unless-stoppped
 networks:
   fullstack-net:
     driver: bridge

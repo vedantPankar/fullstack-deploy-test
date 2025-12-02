@@ -6,7 +6,7 @@ function App() {
   const [message, setMessage] = useState("");
 
   useEffect(() => {
-    fetch(`http://server:4000/api/message`)
+    fetch(`http://http://3.210.122.249/:4000/api/message`)
       .then((res) => res.json())
       .then((data) => setMessage(data.message))
       .catch((error) => console.error("Error fetching message", error));
